@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  background-image: url(hns-logo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 50px;
+      
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+h1 {
+  font-family: Sofia;
+  font-size: 2em;
+  border-bottom: 2px solid blue;
+  border-right: 2px solid red;
+  width: 400px;
+  text-align: center;
+  box-shadow: 20px 20px 21px #888888;
+  margin-top: 10px;
+  background-color: #C5B9B8;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+  transition: all 1s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
